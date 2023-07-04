@@ -1,0 +1,894 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width:992px){
+  
+  [class*="col-"] {
+      width: 100%;
+    }
+  
+   img#jlogo{
+      height: 100px;
+      width: 100px;
+     
+  }
+  div.logo-txt>h1{
+      font-size: 35px;
+      margin-right:0;
+      padding-right: 0;
+   }
+   div.sec2::before{
+      clear: both;
+      display: table;
+      content: ""
+   }
+   div.green{
+  
+      width: 100%;
+  }
+  div.green-txt{
+      margin-left: 250px;
+      margin-top: 200px;
+      text-align: center;
+      
+  }
+  div.green-txt>h1{
+      color:rgb(16, 71, 2)
+  }
+
+  
+  
+  div.july{
+      width: 700px;
+      float: right;
+      position: relative;
+      height: 75vh;
+      
+  }
+  img#ju-img{
+      height: 80vh;
+      width: 100%;
+     
+  }
+  
+  div.ju-txt{
+      position: absolute;
+      top: 240px;
+      left: 240px;
+      text-align: center;
+  }
+
+
+
+
+  div.sb{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+  div.card{
+    height: 55vh;
+    width: 200px;
+    box-shadow: var(--box-shadow);
+    margin: 10px;
+    
+  }
+  img#card-img{
+    width: 200px;
+    height: 35vh;
+  }
+  div.card-txt{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: cursive;
+  }
+  div.card-txt>p5{
+      color: rgb(42, 105, 76);
+      font-weight: bold;
+      padding: 25px 0;
+     
+  }
+  div.card-txt>p6{
+      font-size: 14px;
+      font-weight: bold;
+      padding: 25px 0;
+  }
+  div.card-txt>button{
+      padding: 5px 10px;
+      margin-top: 18px;
+      background-color: rgb(2, 80, 41);
+      border: none;
+      border-radius: 5px;
+      font-family:cursive
+  }
+  div.card-txt>button a{
+      text-decoration: none;
+      color: white;
+      
+      font-size: 14px;
+  }
+  
+
+
+
+
+
+
+div.footer{
+  margin-top: 50px;
+}
+  div.link{
+     width: 200px;
+     
+     margin-left: 100px;     
+  }
+ 
+   
+}
+
+@media only screen and (max-width: 768px){
+  
+  [class*="col-"] {
+      width: 100%;
+    }
+   img#jlogo{
+      height: 100px;
+      width: 100px;
+     
+  }
+  div.logo-txt>h1{
+      font-size: 35px;
+      margin-right:0;
+      padding-right: 0;
+   }
+   div.sec2::before{
+      clear: both;
+      display: table;
+      content: ""
+   }
+   
+   div.green{
+      width: 100%;
+
+   }
+   div.july{
+      width: 100%;
+   }
+
+   div.green{
+    height: 60vh;
+  }
+  div.green-txt{
+      margin-left: 400px;
+      margin-top: 130px;
+      text-align: center;
+      
+  }
+  div.green-txt>p{
+      font-size: 25px;
+      font-weight: bold;
+      color: rgb(175, 20, 20);
+  }
+  div.green-txt>p1{
+      font-size: 25px;
+      font-weight: bold;
+      color: rgb(24, 88, 24);
+  }
+  
+  
+  
+  div.july{
+      width: 80%;
+      float: right;
+      position: relative;
+      height: 40vh;
+      margin-right: 40px;
+  }
+  img#ju-img{
+      height: 60vh;
+  }
+  
+  div.ju-txt{
+      position: absolute;
+      top: 150px;
+      left: 150px;
+      text-align: center;
+  }
+}
+
+.sb{
+    margin-top: 150px;
+}
+div.sb-card1{
+    display: inline-block;
+  }
+div.sb-card2{
+    display: inline-block;
+    margin-top: 1px;
+  }
+div.mb-card1{
+    
+    display: inline-block;
+  }
+div.card{
+    height: 75vh;
+    width: 45%;
+    box-shadow: var(--box-shadow);
+    margin: 10px;
+    float: left;
+}
+img#card-img{
+    width: 100%;
+    height: 52vh;
+  }
+div.card-txt>button{
+      padding: 8px 20px;
+      margin-top: 18px;
+      background-color: rgb(2, 80, 41);
+      border: none;
+      border-radius: 5px;
+      font-family:cursive
+}
+
+  
+
+
+
+  div.footer{
+      margin-top: 130px;
+    }
+      div.link{
+         width: 150px;
+         
+         margin-left: 70px;     
+      }
+     
+
+
+
+
+
+
+@media only screen and (max-width: 500px){
+  [class*="col-"] {
+      width: 100%;
+    }
+img#jlogo{
+  height: 70px;
+  width: 70px;
+  margin-left: 20px;
+}
+div.logo-txt>h1{
+  font-size: 30px;
+}
+div.green{
+  background-image: url(back6.jpg);
+  height: 75vh;
+  float: left;
+  width: 500px;
+}
+div.green-txt{
+  margin-left: 200px;
+  margin-top: 220px;
+  text-align: center;
+  
+}
+div.green-txt>h1{
+  
+  font-weight: bold;
+  color: rgb(21, 39, 5);
+}
+
+div.ju-txt{
+
+  top: 150px;
+  left: 90px;
+
+}
+div.sb::before{
+    clear: both;
+    display: table;
+    content: "";
+  
+  }
+div.sb{
+    margin-top:150px;
+    text-align: center;
+}
+div.sb-card1{
+    margin-left: 100px;
+}
+div.sb-card2{
+    margin-left: 100px;
+}
+div.mb{
+    margin-top: 100px;
+    text-align: center;
+}
+div.mb-card1{
+    margin-left: 100px;
+}
+div.card{
+    height: 55vh;
+    width: 100%;
+    box-shadow: var(--box-shadow);
+   
+}
+img#card-img{
+    width: 100%;
+    height: 35vh;
+    
+  }
+div.card-txt>button{
+      padding: 5px 15px;
+      margin-top: 13px;
+      background-color: rgb(2, 80, 41);
+      border: none;
+      border-radius: 5px;
+      font-family:cursive
+}
+
+
+
+
+div.footer{
+  background-color: rgb(207, 238, 207);
+  width: 500px;
+  height: 40vh;
+
+}
+
+div.link{
+ width: 100%;
+ 
+ margin-left: 10px;
+ 
+}
+
+}
+
+
+
+
+@media only screen and (max-width:300px){
+    div.sec1{
+        height: 20vh;
+        width: 100%;
+    }
+    img#jlogo{
+        height: 50px;
+        width: 50px;
+        margin-left: 70px;
+    }
+     div.logo-txt{
+        margin-right: 10px;
+        padding-right: 0px;
+      }
+      div.logo-txt>h1{
+        color: rgb(25, 70, 25);
+        font-size: 30px;
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      div.sec2::before{
+        clear: both;
+        display: table;
+        content: "";
+      
+      }
+      [class*="col-"] {
+        float: left;}
+      .green{
+        background-image: url(back6.jpg);
+        height: 75vh;
+        float: left;
+        width: 800px;
+        box-shadow: var(--box-shadow);
+      }
+      .green-txt{
+        margin-left: 460px;
+        margin-top: 200px;
+        text-align: center;
+        
+      }
+      p{
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(175, 20, 20);
+      }
+      p1{
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(24, 88, 24);
+      }
+      
+      .july{
+        width: 400px;
+        float: right;
+        position: relative;
+        height: 75vh;
+        margin-right: 20px;
+        box-shadow: var(--box-shadow);
+      }
+      #ju-img{
+        height: 75vh;
+        width: 100%;
+       
+      }
+      
+      .ju-txt{
+        position: absolute;
+        top: 200px;
+        left: 90px;
+        text-align: center;
+      }
+      p2{
+        font-size: 40px;
+        font-weight: bold;
+        color: rgb(5, 46, 5)
+      }
+      p3{
+        color: rgb(167, 8, 8);
+        font-weight: bold;
+        font-size: 18px;
+      }
+      div.sec2::after{
+        clear: both;
+        display: table;
+        content: "";
+      
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      div.sb::before{
+          clear: both;
+          display: table;
+          content: "";
+        
+        }
+      
+      .sb{
+        margin-top: 20px;
+        margin-bottom: 30px;
+       
+      }
+      .sb-card1{
+        display: inline-block;
+      }
+      .sb-card2{
+        display: flex;
+        margin-top: 50px;
+      }
+      .mb{
+        margin-top: 20px;
+        margin-bottom: 30px;
+      }
+      .mb-card1{
+        display: flex;
+      }
+      .mb-card2{
+        display: flex;
+        margin-top: 50px;
+      }
+      .txt{
+        margin: 30px 20px;
+        font-size: 25px;
+        font-weight: bold;
+        color: green;
+      }
+      div.card{
+        height: 75vh;
+        width: 280px;
+        box-shadow: var(--box-shadow);
+        margin: 10px;
+        
+      }
+      img#card-img{
+        width: 280px;
+        height: 52vh;
+      }
+      .card-txt{
+        text-align: center;
+        margin-top: 15px;
+        font-size: 18px;
+        font-family: cursive;
+      }
+      p5{
+          color: rgb(42, 105, 76);
+          font-weight: bold;
+          padding: 25px 5px;
+         
+      }
+      p6{
+          font-size: 18px;
+          font-weight: bold;
+          padding: 25px 5px;
+      }
+      button{
+          padding: 8px 20px;
+          margin-top: 18px;
+          background-color: rgb(2, 80, 41);
+          border: none;
+          border-radius: 5px;
+          font-family:cursive
+      }
+      button a{
+          text-decoration: none;
+          color: white;
+          
+          font-size: 16px;
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      .footer{
+        background-color: rgb(207, 238, 207);
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: space-around;
+      }
+      
+      .ctxt{
+        margin-top: 20px;
+        font-size: 40px;
+        color: rgb(75, 128, 112);
+        text-align: center;
+      }
+      .clink{
+        margin: 50px;
+        display: flex;
+        margin-left: 100px;
+      }
+      .link{
+       width: 350px;
+       height: 30vh;
+       margin-left: 120px;
+       display: flex;
+      }
+      .link a{
+        text-decoration: none;
+        color: black;
+      }
+      #icon{
+        width:30px;
+        height: 30px;
+      }
+      .icon-txt1{
+        margin-left: 20px;
+        margin-top: 5px;
+      }
+      .icon-txt2{
+        margin-left: 20px;
+        margin-top: -7px;
+      }
+      .icon-txt3{
+        margin-left: 20px;
+        
+      }
+      
+      
+      
+      
+}
+
+
+
+
+
+
+
+
+
+:root{
+  --primary-color: rgb(16, 53, 24);
+  --secondary-color: rgba(3, 134, 31, 0.9);
+  --padding: .5rem;
+  --transition: all .3s;
+  --border-radius: .6rem;
+  --box-shadow: .1rem .2rem .8rem rgba(83, 80, 80, 0.5);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.container{
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.sec1{
+  height: 30vh;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(back2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: space-between;
+ 
+  align-items: center;
+  border-bottom: 2px solid rgb(13, 56, 13);
+ text-align: center;
+ box-shadow: .1rem .2rem .8rem rgba(95, 243, 132, 0.5);
+}
+#jlogo{
+  height: 100px;
+  width: 100px;
+  margin-left: 70px;
+}
+.logo-txt{
+  margin-right: 100px;
+  padding-right: 0px;
+}
+h1{
+  color: rgb(25, 70, 25);
+  font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+div.sec2::before{
+  clear: both;
+  display: table;
+  content: "";
+
+}
+[class*="col-"] {
+  float: left;}
+.green{
+  background-image: url(back6.jpg);
+  height: 75vh;
+  float: left;
+  width: 800px;
+  box-shadow: var(--box-shadow);
+}
+.green-txt{
+  margin-left: 460px;
+  margin-top: 200px;
+  text-align: center;
+  
+}
+p{
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(175, 20, 20);
+}
+p1{
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(24, 88, 24);
+}
+
+.july{
+  width: 400px;
+  float: right;
+  position: relative;
+  height: 75vh;
+  margin-right: 20px;
+  box-shadow: var(--box-shadow);
+}
+#ju-img{
+  height: 75vh;
+  width: 100%;
+ 
+}
+
+.ju-txt{
+  position: absolute;
+  top: 200px;
+  left: 90px;
+  text-align: center;
+}
+p2{
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(5, 46, 5)
+}
+p3{
+  color: rgb(167, 8, 8);
+  font-weight: bold;
+  font-size: 18px;
+}
+div.sec2::after{
+  clear: both;
+  display: table;
+  content: "";
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+div.sb::before{
+    clear: both;
+    display: table;
+    content: "";
+  
+  }
+
+.sb{
+  margin-top: 20px;
+  margin-bottom: 30px;
+ 
+}
+.sb-card1{
+  display: inline-block;
+}
+.sb-card2{
+  display: flex;
+  margin-top: 50px;
+}
+.mb{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.mb-card1{
+  display: flex;
+}
+.mb-card2{
+  display: flex;
+  margin-top: 50px;
+}
+.txt{
+  margin: 30px 20px;
+  font-size: 25px;
+  font-weight: bold;
+  color: green;
+}
+div.card{
+  height: 75vh;
+  width: 280px;
+  box-shadow: var(--box-shadow);
+  margin: 10px;
+  
+}
+img#card-img{
+  width: 280px;
+  height: 52vh;
+}
+.card-txt{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 18px;
+  font-family: cursive;
+}
+p5{
+    color: rgb(42, 105, 76);
+    font-weight: bold;
+    padding: 25px 5px;
+   
+}
+p6{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 25px 5px;
+}
+button{
+    padding: 8px 20px;
+    margin-top: 18px;
+    background-color: rgb(2, 80, 41);
+    border: none;
+    border-radius: 5px;
+    font-family:cursive
+}
+button a{
+    text-decoration: none;
+    color: white;
+    
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  background-color: rgb(207, 238, 207);
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ctxt{
+  margin-top: 20px;
+  font-size: 40px;
+  color: rgb(75, 128, 112);
+  text-align: center;
+}
+.clink{
+  margin: 50px;
+  display: flex;
+  margin-left: 100px;
+}
+.link{
+ width: 350px;
+ height: 30vh;
+ margin-left: 120px;
+ display: flex;
+}
+.link a{
+  text-decoration: none;
+  color: black;
+}
+#icon{
+  width:30px;
+  height: 30px;
+}
+.icon-txt1{
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.icon-txt2{
+  margin-left: 20px;
+  margin-top: -7px;
+}
+.icon-txt3{
+  margin-left: 20px;
+  
+}
+
+
+
